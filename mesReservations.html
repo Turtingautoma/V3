@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Accueil</title>
+</head>
+<body>
+    <div class="gradiant-app"></div>
+    <header>
+        <div class="icon-container">
+          <svg width="15" height="21" viewBox="0 0 15 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12.735 3.00003L5.00001 10.735L12.735 18.47" stroke="#141414" stroke-width="6"/>
+          </svg>
+        </div>
+        <div class="menu-container">
+          <svg width="30" height="22" viewBox="0 0 30 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2C0 0.895432 0.895416 0 2 0H28C29.1046 0 30 0.895432 30 2C30 3.10457 29.1046 4 28 4H2C0.895416 4 0 3.10457 0 2ZM7 11C7 9.89543 7.89542 9 9 9H28C29.1046 9 30 9.89543 30 11C30 12.1046 29.1046 13 28 13H9C7.89542 13 7 12.1046 7 11ZM2 18C0.895416 18 0 18.8954 0 20C0 21.1046 0.895416 22 2 22H28C29.1046 22 30 21.1046 30 20C30 18.8954 29.1046 18 28 18H2Z" fill="black"/>
+          </svg>
+        </div>
+      </header>
+
+    <section class="welcome">
+        <div class="big-title">Mes réservations</div>
+        <div class="separator"></div>
+    </section>
+
+    <section class="sherch-bar">
+      <div class="sherch-bar-container">
+          <div class="sherch-bar-icon-container">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M10.7683 10.8275C8.60874 12.805 5.25496 12.6574 3.27743 10.4978C1.29991 8.33827 1.44748 4.98449 3.60705 3.00696C5.76662 1.02944 9.1204 1.17701 11.0979 3.33658C13.0755 5.49615 12.9279 8.84993 10.7683 10.8275ZM11.2176 11.7624C8.64771 13.9033 4.8225 13.6659 2.53992 11.1732C0.189419 8.60629 0.364829 4.61996 2.93171 2.26945C5.4986 -0.0810505 9.48493 0.0943594 11.8354 2.66124C14.0262 5.05365 14.0227 8.67909 11.9339 11.0639L15.2025 14.6334L14.465 15.3088L11.2176 11.7624Z" fill="#F9F9F9"/>
+              </svg>
+          </div>
+          <div class="sherch-bar-imput">
+            <input type="text" name="sherchbyname" id="sherchbyname" placeholder="Recherche par nom...">
+          </div>
+      </div>
+    </section>
+
+    <section class="date-bar">
+    <div class="date-bar-container">
+        <div class="date-bar-icon-container">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="40" height="40" rx="5" fill="#D9D9D9"/>
+                <rect x="5" y="5" width="7" height="7" fill="#1D1D1D"/>
+                <rect x="5.5" y="17.5" width="6" height="6" stroke="black"/>
+                <rect x="5" y="29" width="7" height="7" fill="#1D1D1D"/>
+                <rect x="17.5" y="5.5" width="6" height="6" stroke="black"/>
+                <rect x="17" y="17" width="7" height="7" fill="#1D1D1D"/>
+                <rect x="17" y="29" width="7" height="7" fill="#1D1D1D"/>
+                <rect x="29" y="5" width="7" height="7" fill="#1D1D1D"/>
+                <rect x="29" y="17" width="7" height="7" fill="#1D1D1D"/>
+                <rect x="29.5" y="29.5" width="6" height="6" stroke="black"/>
+                </svg>
+        </div>
+        <div class="date-bar-imput">
+            <input type="date" name="sherchbyname" id="sherchbyname" placeholder="Recherche par nom...">
+        </div>
+    </div>
+    </section>
+
+    <section class="Result-sherch-reservation">
+        <div class="result-sherch-area">
+          <div class="reservation-item">
+            <div class="icon-container-reservation-item">
+                <svg width="20" height="30" viewBox="0 0 20 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10 11.7857C13.3751 11.7857 16.1111 9.14739 16.1111 5.89286C16.1111 2.63832 13.3751 0 10 0C6.62493 0 3.88889 2.63832 3.88889 5.89286C3.88889 9.14739 6.62493 11.7857 10 11.7857ZM10 13.3929C4.47715 13.3929 0 17.87 0 23.3929V30H20V23.3929C20 17.87 15.5228 13.3929 10 13.3929Z" fill="#282828"/>
+                </svg>
+            </div>
+            <p class="text-reservation-item" id="name">Nico</p>
+            <div class="separator-reservation-item"></div>
+            <p class="text-reservation-item" id="nbDePersonnes">4</p> 
+            <p class="text-reservation-item">personnes</p>
+            <div class="separator-reservation-item"></div> 
+            <p class="text-reservation-item" id="date">14/08/2024</p> 
+          </div>
+          <div class="reservation-item">
+            <div class="icon-container-reservation-item">
+                <svg width="20" height="30" viewBox="0 0 20 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10 11.7857C13.3751 11.7857 16.1111 9.14739 16.1111 5.89286C16.1111 2.63832 13.3751 0 10 0C6.62493 0 3.88889 2.63832 3.88889 5.89286C3.88889 9.14739 6.62493 11.7857 10 11.7857ZM10 13.3929C4.47715 13.3929 0 17.87 0 23.3929V30H20V23.3929C20 17.87 15.5228 13.3929 10 13.3929Z" fill="#282828"/>
+                </svg>
+            </div>
+            <p class="text-reservation-item" id="name">Nico</p>
+            <div class="separator-reservation-item"></div>
+            <p class="text-reservation-item" id="nbDePersonnes">4</p> 
+            <p class="text-reservation-item">personnes</p>
+            <div class="separator-reservation-item"></div> 
+            <p class="text-reservation-item" id="date">14/08/2024</p> 
+          </div>
+          <div class="reservation-item">
+            <div class="icon-container-reservation-item">
+                <svg width="20" height="30" viewBox="0 0 20 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10 11.7857C13.3751 11.7857 16.1111 9.14739 16.1111 5.89286C16.1111 2.63832 13.3751 0 10 0C6.62493 0 3.88889 2.63832 3.88889 5.89286C3.88889 9.14739 6.62493 11.7857 10 11.7857ZM10 13.3929C4.47715 13.3929 0 17.87 0 23.3929V30H20V23.3929C20 17.87 15.5228 13.3929 10 13.3929Z" fill="#282828"/>
+                </svg>
+            </div>
+            <p class="text-reservation-item" id="name">Nico</p>
+            <div class="separator-reservation-item"></div>
+            <p class="text-reservation-item" id="nbDePersonnes">4</p> 
+            <p class="text-reservation-item">personnes</p>
+            <div class="separator-reservation-item"></div> 
+            <p class="text-reservation-item" id="date">14/08/2024</p> 
+          </div>
+          <div class="reservation-item">
+            <div class="icon-container-reservation-item">
+                <svg width="20" height="30" viewBox="0 0 20 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10 11.7857C13.3751 11.7857 16.1111 9.14739 16.1111 5.89286C16.1111 2.63832 13.3751 0 10 0C6.62493 0 3.88889 2.63832 3.88889 5.89286C3.88889 9.14739 6.62493 11.7857 10 11.7857ZM10 13.3929C4.47715 13.3929 0 17.87 0 23.3929V30H20V23.3929C20 17.87 15.5228 13.3929 10 13.3929Z" fill="#282828"/>
+                </svg>
+            </div>
+            <p class="text-reservation-item" id="name">Nico</p>
+            <div class="separator-reservation-item"></div>
+            <p class="text-reservation-item" id="nbDePersonnes">4</p> 
+            <p class="text-reservation-item">personnes</p>
+            <div class="separator-reservation-item"></div> 
+            <p class="text-reservation-item" id="date">14/08/2024</p> 
+          </div>
+          <div class="reservation-item">
+            <div class="icon-container-reservation-item">
+                <svg width="20" height="30" viewBox="0 0 20 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10 11.7857C13.3751 11.7857 16.1111 9.14739 16.1111 5.89286C16.1111 2.63832 13.3751 0 10 0C6.62493 0 3.88889 2.63832 3.88889 5.89286C3.88889 9.14739 6.62493 11.7857 10 11.7857ZM10 13.3929C4.47715 13.3929 0 17.87 0 23.3929V30H20V23.3929C20 17.87 15.5228 13.3929 10 13.3929Z" fill="#282828"/>
+                </svg>
+            </div>
+            <p class="text-reservation-item" id="name">Nico</p>
+            <div class="separator-reservation-item"></div>
+            <p class="text-reservation-item" id="nbDePersonnes">4</p> 
+            <p class="text-reservation-item">personnes</p>
+            <div class="separator-reservation-item"></div> 
+            <p class="text-reservation-item" id="date">14/08/2024</p> 
+          </div>
+          <div class="reservation-item">
+            <div class="icon-container-reservation-item">
+                <svg width="20" height="30" viewBox="0 0 20 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10 11.7857C13.3751 11.7857 16.1111 9.14739 16.1111 5.89286C16.1111 2.63832 13.3751 0 10 0C6.62493 0 3.88889 2.63832 3.88889 5.89286C3.88889 9.14739 6.62493 11.7857 10 11.7857ZM10 13.3929C4.47715 13.3929 0 17.87 0 23.3929V30H20V23.3929C20 17.87 15.5228 13.3929 10 13.3929Z" fill="#282828"/>
+                </svg>
+            </div>
+            <p class="text-reservation-item" id="name">Nico</p>
+            <div class="separator-reservation-item"></div>
+            <p class="text-reservation-item" id="nbDePersonnes">4</p> 
+            <p class="text-reservation-item">personnes</p>
+            <div class="separator-reservation-item"></div> 
+            <p class="text-reservation-item" id="date">14/08/2024</p> 
+          </div>
+          <div class="reservation-item">
+            <div class="icon-container-reservation-item">
+                <svg width="20" height="30" viewBox="0 0 20 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10 11.7857C13.3751 11.7857 16.1111 9.14739 16.1111 5.89286C16.1111 2.63832 13.3751 0 10 0C6.62493 0 3.88889 2.63832 3.88889 5.89286C3.88889 9.14739 6.62493 11.7857 10 11.7857ZM10 13.3929C4.47715 13.3929 0 17.87 0 23.3929V30H20V23.3929C20 17.87 15.5228 13.3929 10 13.3929Z" fill="#282828"/>
+                </svg>
+            </div>
+            <p class="text-reservation-item" id="name">Nico</p>
+            <div class="separator-reservation-item"></div>
+            <p class="text-reservation-item" id="nbDePersonnes">4</p> 
+            <p class="text-reservation-item">personnes</p>
+            <div class="separator-reservation-item"></div> 
+            <p class="text-reservation-item" id="date">14/08/2024</p> 
+          </div>
+          <div class="reservation-item">
+            <div class="icon-container-reservation-item">
+                <svg width="20" height="30" viewBox="0 0 20 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10 11.7857C13.3751 11.7857 16.1111 9.14739 16.1111 5.89286C16.1111 2.63832 13.3751 0 10 0C6.62493 0 3.88889 2.63832 3.88889 5.89286C3.88889 9.14739 6.62493 11.7857 10 11.7857ZM10 13.3929C4.47715 13.3929 0 17.87 0 23.3929V30H20V23.3929C20 17.87 15.5228 13.3929 10 13.3929Z" fill="#282828"/>
+                </svg>
+            </div>
+            <p class="text-reservation-item" id="name">Nico</p>
+            <div class="separator-reservation-item"></div>
+            <p class="text-reservation-item" id="nbDePersonnes">4</p> 
+            <p class="text-reservation-item">personnes</p>
+            <div class="separator-reservation-item"></div> 
+            <p class="text-reservation-item" id="date">14/08/2024</p> 
+          </div>
+          <div class="reservation-item">
+            <div class="icon-container-reservation-item">
+                <svg width="20" height="30" viewBox="0 0 20 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10 11.7857C13.3751 11.7857 16.1111 9.14739 16.1111 5.89286C16.1111 2.63832 13.3751 0 10 0C6.62493 0 3.88889 2.63832 3.88889 5.89286C3.88889 9.14739 6.62493 11.7857 10 11.7857ZM10 13.3929C4.47715 13.3929 0 17.87 0 23.3929V30H20V23.3929C20 17.87 15.5228 13.3929 10 13.3929Z" fill="#282828"/>
+                </svg>
+            </div>
+            <p class="text-reservation-item" id="name">Nico</p>
+            <div class="separator-reservation-item"></div>
+            <p class="text-reservation-item" id="nbDePersonnes">4</p> 
+            <p class="text-reservation-item">personnes</p>
+            <div class="separator-reservation-item"></div> 
+            <p class="text-reservation-item" id="date">14/08/2024</p> 
+          </div>
+          <div class="reservation-item">
+            <div class="icon-container-reservation-item">
+                <svg width="20" height="30" viewBox="0 0 20 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10 11.7857C13.3751 11.7857 16.1111 9.14739 16.1111 5.89286C16.1111 2.63832 13.3751 0 10 0C6.62493 0 3.88889 2.63832 3.88889 5.89286C3.88889 9.14739 6.62493 11.7857 10 11.7857ZM10 13.3929C4.47715 13.3929 0 17.87 0 23.3929V30H20V23.3929C20 17.87 15.5228 13.3929 10 13.3929Z" fill="#282828"/>
+                </svg>
+            </div>
+            <p class="text-reservation-item" id="name">Nico</p>
+            <div class="separator-reservation-item"></div>
+            <p class="text-reservation-item" id="nbDePersonnes">4</p> 
+            <p class="text-reservation-item">personnes</p>
+            <div class="separator-reservation-item"></div> 
+            <p class="text-reservation-item" id="date">14/08/2024</p> 
+          </div>
+          <div class="reservation-item">
+            <div class="icon-container-reservation-item">
+                <svg width="20" height="30" viewBox="0 0 20 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10 11.7857C13.3751 11.7857 16.1111 9.14739 16.1111 5.89286C16.1111 2.63832 13.3751 0 10 0C6.62493 0 3.88889 2.63832 3.88889 5.89286C3.88889 9.14739 6.62493 11.7857 10 11.7857ZM10 13.3929C4.47715 13.3929 0 17.87 0 23.3929V30H20V23.3929C20 17.87 15.5228 13.3929 10 13.3929Z" fill="#282828"/>
+                </svg>
+            </div>
+            <p class="text-reservation-item" id="name">Nico</p>
+            <div class="separator-reservation-item"></div>
+            <p class="text-reservation-item" id="nbDePersonnes">4</p> 
+            <p class="text-reservation-item">personnes</p>
+            <div class="separator-reservation-item"></div> 
+            <p class="text-reservation-item" id="date">14/08/2024</p> 
+          </div>
+        </div>
+    </section>
+
+    <section class="bouton-plus">
+      <div class="bouton-plus-container">
+          <div class="bouton-icon"><svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="15" cy="15" r="15" fill="#282828"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M14.9999 5.00006C14.0794 5.00006 13.3332 5.74625 13.3332 6.66673V13.3333H6.66655C5.74607 13.3333 4.99988 14.0795 4.99988 15C4.99988 15.9205 5.74607 16.6667 6.66655 16.6667H13.3332V23.3334C13.3332 24.2539 14.0794 25.0001 14.9999 25.0001C15.9204 25.0001 16.6665 24.2539 16.6665 23.3334V16.6667H23.3332C24.2537 16.6667 24.9999 15.9205 24.9999 15C24.9999 14.0795 24.2537 13.3333 23.3332 13.3333H16.6665V6.66673C16.6665 5.74625 15.9204 5.00006 14.9999 5.00006Z" fill="#51DE79"/>
+              </svg></div>
+      </div>
+  </section>
+
+    
+</body>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  
+  <style>
+    body {
+        margin: 0;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 80px;
+        background-color: rgb(255, 255, 255); /* Couleur de fond avec opacité */
+        z-index: 1000; /* Assurer que le header soit au-dessus des autres éléments */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ajout d'une légère ombre pour la profondeur */
+        border-radius: 11px;
+      }
+    .icon-container{
+        display: flex;
+        justify-content: left;
+        width: 40px;
+        margin-left: 30px;
+    }
+   
+    .icon-container img{
+      width: 40px;
+
+    }
+    .menu-container{
+
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        width: 40px;
+        height: 50px;
+        margin-right: 30px;
+    }
+  </style>
+  <body>
+    <header>
+      <div class="icon-container">
+        <img src="/img/Logo.png" alt="Logo">
+      </div>
+      <div class="menu-container">
+        <svg width="30" height="22" viewBox="0 0 30 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2C0 0.895432 0.895416 0 2 0H28C29.1046 0 30 0.895432 30 2C30 3.10457 29.1046 4 28 4H2C0.895416 4 0 3.10457 0 2ZM7 11C7 9.89543 7.89542 9 9 9H28C29.1046 9 30 9.89543 30 11C30 12.1046 29.1046 13 28 13H9C7.89542 13 7 12.1046 7 11ZM2 18C0.895416 18 0 18.8954 0 20C0 21.1046 0.895416 22 2 22H28C29.1046 22 30 21.1046 30 20C30 18.8954 29.1046 18 28 18H2Z" fill="black"/>
+        </svg>
+      </div>
+    </header>
+  </body>
+</html>
